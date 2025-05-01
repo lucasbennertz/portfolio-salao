@@ -9,12 +9,16 @@
     color: white;
     flex-direction: column;
     justify-content: center;
+    padding: 5vh;
 }
 .imagem img{
     opacity: 60%;
     transform: scaleX(-1);
+    height: 80vh;
+    width: 80vh;
 }
 .imagem{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
