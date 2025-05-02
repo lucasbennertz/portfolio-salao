@@ -1,0 +1,36 @@
+.tipos-de-cabelo{
+  height: 80vh;
+  background-color: #AF52E3;
+  border-top: solid 0.5px white;
+  padding: 10vh;
+}
+.title{
+  color: white;
+  font-family: "Calistoga", serif;
+  margin-bottom: 5vh;
+}
+.cards{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card{
+  height: 40vh;
+  width: 30vh;
+  border-radius: 8%;
+  display: flex;
+  align-items: center;
+}
+.imagem-card{
+  height: 30vh;
+  width: 30vh;
+  border-top-right-radius: 8%;
+  border-top-left-radius: 8%;
+}
+.nome-cabelo{
+  font-family: "Italiana", sans-serif;
+  font-size: 4vh;
+  margin-top: auto;
+  margin-bottom: auto;
+}
