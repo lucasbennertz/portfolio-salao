@@ -55,7 +55,24 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   transition: opacity 1s ease;
 }
-.card:hover .legenda-cabelo{
+.card:hover .legenda-cabelo, .card:hover .legenda-cabelo-ultimo{
   display: block;
   opacity: 1;
+}
+.legenda-cabelo-ultimo{
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 105%;
+  opacity: 0;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  font-size: 2vh;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: opacity 1s ease;
 }
